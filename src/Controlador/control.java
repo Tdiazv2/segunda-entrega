@@ -76,8 +76,8 @@ public class control {
 		this.menuadminG = new MenuAdministradorG(this);
 		this.menuE = new MenuEmpleado(this);
 		
-		this.ren = carga.Leer("Proyecto1_DPOO/Implementacion/data/personas.txt", "Proyecto1_DPOO/Implementacion/data/sede.txt", "Proyecto1_DPOO/Implementacion/data/reserva.txt", "Proyecto1_DPOO/Implementacion/data/vehiculos.txt",
-				"Proyecto1_DPOO/Implementacion/data/Proveedores.txt", "Proyecto1_DPOO/Implementacion/data/Seguros.txt");
+		this.ren = carga.Leer("data/personas.txt", "data/sede.txt", "data/reserva.txt", "data/vehiculos.txt",
+				"data/Proveedores.txt", "data/Seguros.txt");
 		
 	}
 	public void salvar() throws FileNotFoundException, UnsupportedEncodingException {
